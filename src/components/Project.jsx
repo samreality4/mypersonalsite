@@ -13,7 +13,7 @@ function Project(props) {
 
     return (
     <div key={props.key} id={props.id} className="row col-lg-4 col-md-6 justify-content-center">
-      <Paper className="m-2" elevation={1} style={{width: "20rem"}}>
+      <Paper className="m-5" elevation={2} style={{width: "20rem"}}>
     <h1>{props.name}</h1>
         <img
           className="d-block m-2"

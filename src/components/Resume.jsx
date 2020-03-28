@@ -1,21 +1,16 @@
-import React, {useState} from "react";
-import { Document, pdfjs } from "react-pdf";
+import React from "react";
+import Paper from "@material-ui/core/Paper";
+import Img from 'react-image'
+
 
 function Resume() {
-
-    pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-
-   const [pageState, setPageState] = useState({numPages: 1, pageNumber: 1}) 
-   
-    function onDocumentLoadSuccess ({numPages})  {
-        setPageState({numPages});
-    }
-
-  return <div><Document 
-  onLoadSuccess= {onDocumentLoadSuccess}
-  onLoadError={console.error}
-  file="/images/resume.pdf">
-  </Document></div>
+  return (
+    <div className="container-fluid row justify-content-center" style={{backgroundColor:"#eda1c1"}}>
+      <Paper className="row col-sm-4 justify-content-center m-2" elevation={2}>
+        <Img src="/images/resume.jpg" style={{width:"630px", height:"900px"}} />
+      </Paper>
+    </div>
+  );
 }
 
 export default Resume;
