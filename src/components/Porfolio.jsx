@@ -4,14 +4,16 @@ import {projectArray} from "../projectsData";
 import Project from "./Project";
 
 function Porfolio() {
-  return (
-    <Paper className="row col-12 text-center m-2" elevation={2}>
+  return (<div className="container-fluid text-center m-4" >
+    <Paper className="row col-12 justify-content-center" elevation={2}>
       {projectArray.map(item => {
         return (
-          <Project image={item.image} url={item.url} github={item.github} />
+          <Project name={item.name} id={item.id} image={item.image} url={item.url} github={item.github} />
         );
       })}
     </Paper>
+    </div>
+  
   );
 }
 
