@@ -1,6 +1,6 @@
 import React from "react";
 import BottomBar from "./BottomBar";
-import Porfolio from "./Porfolio";
+import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 import AboutMe from "./Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -11,7 +11,7 @@ function App() {
       <React.Fragment>
         <Switch>
         <Route exact path="/" render={() => <AboutMe/>} />
-          <Route exact path="/Porfolio" render={() => <Porfolio />} />
+          <Route exact path="/Portfolio" render={() => <Portfolio />} />
           <Route exact path="/Resume" render={() => <Resume />} />
         </Switch>
         <BottomBar />

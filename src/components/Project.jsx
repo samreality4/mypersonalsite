@@ -1,19 +1,12 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
-import Image from "material-ui-image";
+
 
 function Project(props) {
-  var elevation = 1;
-  function addElevation() {
-    elevation = 2;
-  }
-  function decreaseElevation() {
-    elevation = 1;
-  }
 
     return (
     <div key={props.key} id={props.id} className="row col-lg-4 col-md-6 justify-content-center">
-      <Paper className="m-5" elevation={2} style={{width: "20rem"}}>
+      <Paper className="m-5 shadow" elevation={2} style={{width: "20rem"}}>
     <h1>{props.name}</h1>
         <img
           className="d-block m-2"

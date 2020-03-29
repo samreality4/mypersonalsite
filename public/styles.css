@@ -1,11 +1,4 @@
-.body {
-    height: 100%;
-  }
-
-  .container-fluid {
-      min-height: 100%;
-  }
-
-  .flex-fill {
-    flex:1 1 auto;
+body { 
+height: 100%;
+  background-image: url(../images/fabric.png); 
 }
