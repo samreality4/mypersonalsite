@@ -21,7 +21,8 @@ function BottomBar() {
           style={{
             backgroundColor: appBarColor,
             bottom: "20px",
-            alignItems: "center"
+            alignItems: "center",
+            borderRadius: "15px"
           }}
         >
           <Toolbar>
