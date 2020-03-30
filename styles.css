@@ -1,0 +1,43 @@
+body {
+  height: 100%;
+  background-image: url(../images/brick-wall.png);
+  font-family: "Roboto", sans-serif;
+}
+
+.project-text {
+  color: #fab2ac;
+}
+
+.link-text {
+  color: #dbe2ef;
+}
+
+.home h1 {
+  color: #3f72af;
+  font-family: "Roboto Slab", serif;
+  font-size: 5.62rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+.home h2 {
+  color: #3f72af;
+  font-family: "Roboto Slab", serif;
+  font-size: 2.625rem;
+  font-weight: normal;
+}
+
+.home hr {
+  border-style: dotted none none;
+  width: 10%;
+  border-color: #eaf6f6;
+  border-width: 10px;
+}
+
+.home h3, .home h4, .home h5, .home p {
+  color: #3f72af;
+  font-family: "Roboto", sans-serif;
+
+}
+
+
