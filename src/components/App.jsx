@@ -10,9 +10,9 @@ function App() {
     <Router>
       <React.Fragment>
         <Switch>
-        <Route exact path="/" render={() => <AboutMe/>} />
-          <Route exact path="/Portfolio" render={() => <Portfolio />} />
-          <Route exact path="/Resume" render={() => <Resume />} />
+        <Route exact path={process.env.PUBLIC_URL + "/"} render={() => <AboutMe/>} />
+          <Route exact path={process.env.PUBLIC_URL + "/Portfolio"} render={() => <Portfolio />} />
+          <Route exact path={process.env.PUBLIC_URL + "/Resume"} render={() => <Resume />} />
         </Switch>
         <BottomBar />
       </React.Fragment>

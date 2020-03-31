@@ -17,7 +17,7 @@ function BottomBar() {
       <div className="row justify-content-center">
         <AppBar
           position="relative"
-          className="col-lg-4 col-md-6 col-10 mx-auto justify-content-center"
+          className="col-lg-4 col-md-6 col-10 mx-auto justify-content-center shadow-lg"
           style={{
             backgroundColor: appBarColor,
             bottom: "20px",
@@ -26,7 +26,10 @@ function BottomBar() {
           }}
         >
           <Toolbar>
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link
+              to={process.env.PUBLIC_URL + "/"}
+              style={{ textDecoration: "none" }}
+            >
               <Button
                 onClick={() => handleNavClick("#dbe2ef")}
                 className="mr-3"
@@ -36,7 +39,10 @@ function BottomBar() {
                 Home
               </Button>
             </Link>
-            <Link to="/Portfolio" style={{ textDecoration: "none" }}>
+            <Link
+              to={process.env.PUBLIC_URL + "/Portfolio"}
+              style={{ textDecoration: "none" }}
+            >
               <Button
                 onClick={() => handleNavClick("#fab2ac")}
                 className="mr-3"
@@ -46,7 +52,7 @@ function BottomBar() {
                 Portfolio
               </Button>
             </Link>
-            <Link to="/Resume" style={{ textDecoration: "none" }}>
+            <Link to={process.env.PUBLIC_URL + "/Resume"} style={{ textDecoration: "none" }}>
               <Button
                 onClick={() => handleNavClick("#eda1c1")}
                 variant="contained"

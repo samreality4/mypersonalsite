@@ -1,9 +1,6 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
 import Grow from "@material-ui/core/Grow";
-import { Document } from 'react-pdf';
-import { pdfjs } from 'react-pdf';
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 function Resume() {
@@ -15,14 +12,11 @@ function Resume() {
           style={{ backgroundColor: "#eda1c1" }}
           elevation={2}
         >
-          <Document file="resume.pdf"></Document>
-
-          {/* <img
+      <a className="row justify-content-center" href="https://drive.google.com/file/d/1hTnCGPq6UmuCk0KAQTKLUQ7VtqcowSV3/view" rel="noopener noreferrer" target="_blank"><img
             alt="resume"
             className="col-12 m-3"
-            src="/images/resume.jpg"
-            style={{ width: "600px", height: "1000px" }}
-          /> */}
+            src={process.env.PUBLIC_URL + "/images/resume.jpg"}
+          /> </a>
         </Paper>
       </Grow>
     </div>
