@@ -1,15 +1,18 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
 import Divider from '@material-ui/core/Divider';
+import Grow from "@material-ui/core/Grow";
 
 function Project(props) {
   return (
     <div
       key={props.key}
       id={props.id}
-      className="row col-lg-4 col-md-6 justify-content-center"
+      className="row p-0 col-lg-4 col-md-6 mt-4 justify-content-center"
     >
-      <Paper className="m-5 shadow" elevation={2} style={{ width: "20rem" }}>
+       <Grow in={true} >
+      <Paper className="row p-3 justify-content-center shadow-lg" style={{backgroundColor: "#fab2ac"}} elevation={2}>
+      <Paper className="shadow" elevation={2} style={{ width: "20rem" }}>
         <h2 className="project-text">{props.name}</h2>
         <img
           className="d-block m-2"
@@ -35,6 +38,8 @@ function Project(props) {
           <p> {props.description}</p>
         </div>
       </Paper>
+      </Paper>
+       </Grow>
     </div>
   );
 }

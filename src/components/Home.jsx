@@ -117,17 +117,17 @@ function Home() {
             <div className="contact-me mt-5">
               <h2>Get In Touch</h2>
               <p>I am always ready to learn and take on different projects.</p>
-              <Button
-                variant="contained"
-                style={{ backgroundColor: "#3f72af", color: "#FFFF" }}
+
+              <a
+                href="mailto:samaudacity2@gmail.com"
+                style={{ textDecoration: "none" }}
               >
-                <a
-                  href="mailto:samaudacity2@gmail.com"
-                  style={{ textDecoration: "none" }}
-                >
-                </a>
-                CONTACT ME
-              </Button>
+                <Button
+                  variant="contained"
+                  style={{ backgroundColor: "#3f72af", color: "#FFFF" }}
+                >CONTACT ME</Button>
+              </a>
+
               <br />
             </div>
           </div>

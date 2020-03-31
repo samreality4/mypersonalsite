@@ -17,7 +17,7 @@ function BottomBar() {
       <div className="row justify-content-center">
         <AppBar
           position="relative"
-          className="col-lg-4 col-md-6 col-10 mx-auto justify-content-center shadow-lg"
+          className="col-xl-4 col-lg-5 col-md-6 col-11 mx-auto justify-content-center shadow-lg"
           style={{
             backgroundColor: appBarColor,
             bottom: "20px",
