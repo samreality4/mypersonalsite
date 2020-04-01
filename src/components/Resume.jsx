@@ -23,7 +23,6 @@ function Resume() {
               src={process.env.PUBLIC_URL + "/images/resume.png"}
             />
           </a>
-          
         </Paper>
       </Grow>
     </div>

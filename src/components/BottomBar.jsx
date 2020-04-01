@@ -52,7 +52,10 @@ function BottomBar() {
                 Portfolio
               </Button>
             </Link>
-            <Link to={process.env.PUBLIC_URL + "/Resume"} style={{ textDecoration: "none" }}>
+            <Link
+              to={process.env.PUBLIC_URL + "/Resume"}
+              style={{ textDecoration: "none" }}
+            >
               <Button
                 onClick={() => handleNavClick("#eda1c1")}
                 variant="contained"
