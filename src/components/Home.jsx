@@ -59,10 +59,9 @@ function Home() {
                   borderRadius: "50%"
                 }}
               />
-              <h2>Hello. 你好. こにちわ. Bonjour.</h2>
+              <h2>Hello. 你好. こんにちわ. Bonjour.</h2>
               <p>
-                I am a Web App Developer I was an accountant. I ❤️ playing
-                basketball.
+                I am a Web App Developer. Seeking positions in web and mobile app development.
               </p>
             </div>
             <hr />
