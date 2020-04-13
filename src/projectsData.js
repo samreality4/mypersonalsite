@@ -21,4 +21,12 @@ const project3 = {
 github: "https://github.com/samreality4/tindogmaster",
 description: "Tinder for dogs front end design."}
 
-export const projectArray = [project1, project2, project3];
+const project4 = { 
+    id: "4",
+    name:"Super Lucky",
+    image: process.env.PUBLIC_URL + "/images/superlucky.png",
+    url: "https://superlucky.herokuapp.com/",
+github: "https://github.com/samreality4/SuperLucky",
+description: "Super Lucky is a set of tools to find the luckiest number for the CA Super Lotto game. "}
+
+export const projectArray = [project4, project1, project2, project3];

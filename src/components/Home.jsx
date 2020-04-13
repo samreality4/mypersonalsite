@@ -61,7 +61,7 @@ function Home() {
               />
               <h2>Hello. 你好. こんにちわ. Bonjour.</h2>
               <p>
-                I am a Web App Developer. Seeking positions in web and mobile app development.
+                I am a Web App Developer. 
               </p>
             </div>
             <hr />
@@ -86,7 +86,7 @@ function Home() {
                     restaurant randomizer Android App called ChoosU in the
                     Google Play Store. From then on, I have expanded my
                     curiousity to IOS development and Full Stack Web
-                    development.
+                    development. Seeking positions in web and mobile app development.
                   </p>
                 </div>
               </div>
