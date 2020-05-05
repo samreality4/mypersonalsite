@@ -29,4 +29,20 @@ const project4 = {
 github: "https://github.com/samreality4/SuperLucky",
 description: "Super Lucky is a set of tools to find the luckiest number for the CA Super Lotto game. "}
 
-export const projectArray = [project4, project1, project2, project3];
+const project5 = { 
+    id: "5",
+    name:"ColBloc",
+    image: process.env.PUBLIC_URL + "/images/colbloc.png",
+    url: "https://colbloc.herokuapp.com/",
+github: "https://github.com/samreality4/newblog",
+description: "Colbloc is a blog filled with explosive amount of gradient colors. "}
+
+const project6 = { 
+    id: "6",
+    name:"Free Code Camp Portfolio",
+    image: process.env.PUBLIC_URL + "/images/fccportfolio.png",
+    url: "https://samreality4.github.io/FCCPortfolioSite/",
+github: "https://github.com/samreality4/FCCPortfolioSite",
+description: "A portfolio showcasing all the projects from Free Code Camp."}
+
+export const projectArray = [project5, project4, project1, project6, project2, project3];

@@ -4,7 +4,7 @@ import Grow from "@material-ui/core/Grow";
 
 function Resume() {
   return (
-    <div className="container-fluid p-0 row m-0 justify-content-center">
+    <div className="container-fluid p-0 row m-0 mb-5 justify-content-center">
       <Grow in={true}>
         <Paper
           className="row p-0 col-lg-8 col-sm-10 col-11 justify-content-center m-4 shadow-lg"

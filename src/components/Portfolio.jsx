@@ -4,7 +4,7 @@ import Project from "./Project";
 
 function Portfolio() {
   return (
-    <div className="container-fluid p-0 row m-0 justify-content-center text-center">
+    <div className="container-fluid p-0 row m-0 mb-5 justify-content-center text-center">
       {projectArray.map(item => {
         return (
           <Project

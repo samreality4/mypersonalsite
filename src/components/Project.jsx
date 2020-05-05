@@ -8,7 +8,7 @@ function Project(props) {
     <div
       key={props.key}
       id={props.id}
-      className="row p-0 col-lg-4 col-md-6 mt-4 justify-content-center"
+      className="row p-0 col-lg-4 col-md-6 mt-4 mb-5 justify-content-center"
     >
       <Grow in={true}>
         <Paper

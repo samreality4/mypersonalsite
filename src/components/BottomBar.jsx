@@ -9,7 +9,7 @@ function BottomBar() {
 
   function handleNavClick(color) {
     setAppBarColor(color);
-    console.log(color);
+    window.scrollTo(0,0)
   }
 
   return (
