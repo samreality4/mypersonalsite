@@ -16,7 +16,7 @@ body {
   color: #3f72af;
   font-family: "Roboto Slab", serif;
   font-size: 5.62rem;
-  line-height: 2;
+  padding-bottom: 2rem;
   margin: 50px auto 0 auto;
 }
 
@@ -34,10 +34,22 @@ body {
   border-width: 10px;
 }
 
-.home h3, .home h4, .home h5, .home p {
+.home h3,
+.home h4,
+.home h5,
+.home p {
   color: #3f72af;
   font-family: "Roboto", sans-serif;
-
 }
 
+@media only screen and (max-width: 770px) {
+  .loading-image {
+    height: 7rem;
+  }
+}
 
+@media only screen and (max-width: 600px) {
+  .loading-image {
+    height: 5rem;
+  }
+}
