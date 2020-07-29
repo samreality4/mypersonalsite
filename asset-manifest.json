@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/mypersonalsite/static/js/main.fd03f933.chunk.js",
-    "main.js.map": "/mypersonalsite/static/js/main.fd03f933.chunk.js.map",
-    "runtime-main.js": "/mypersonalsite/static/js/runtime-main.868cc6b4.js",
-    "runtime-main.js.map": "/mypersonalsite/static/js/runtime-main.868cc6b4.js.map",
-    "static/css/2.de424728.chunk.css": "/mypersonalsite/static/css/2.de424728.chunk.css",
-    "static/js/2.e36cc153.chunk.js": "/mypersonalsite/static/js/2.e36cc153.chunk.js",
-    "static/js/2.e36cc153.chunk.js.map": "/mypersonalsite/static/js/2.e36cc153.chunk.js.map",
-    "index.html": "/mypersonalsite/index.html",
-    "precache-manifest.1abf6f4030fc2f8a3c57457fafa14817.js": "/mypersonalsite/precache-manifest.1abf6f4030fc2f8a3c57457fafa14817.js",
-    "service-worker.js": "/mypersonalsite/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/mypersonalsite/static/css/2.de424728.chunk.css.map",
-    "static/js/2.e36cc153.chunk.js.LICENSE.txt": "/mypersonalsite/static/js/2.e36cc153.chunk.js.LICENSE.txt"
+    "main.js": "/samguan-sxg.info/static/js/main.cc72f933.chunk.js",
+    "main.js.map": "/samguan-sxg.info/static/js/main.cc72f933.chunk.js.map",
+    "runtime-main.js": "/samguan-sxg.info/static/js/runtime-main.71bca54c.js",
+    "runtime-main.js.map": "/samguan-sxg.info/static/js/runtime-main.71bca54c.js.map",
+    "static/css/2.de424728.chunk.css": "/samguan-sxg.info/static/css/2.de424728.chunk.css",
+    "static/js/2.e36cc153.chunk.js": "/samguan-sxg.info/static/js/2.e36cc153.chunk.js",
+    "static/js/2.e36cc153.chunk.js.map": "/samguan-sxg.info/static/js/2.e36cc153.chunk.js.map",
+    "index.html": "/samguan-sxg.info/index.html",
+    "precache-manifest.8a635e49899244397de520fc452dfb10.js": "/samguan-sxg.info/precache-manifest.8a635e49899244397de520fc452dfb10.js",
+    "service-worker.js": "/samguan-sxg.info/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/samguan-sxg.info/static/css/2.de424728.chunk.css.map",
+    "static/js/2.e36cc153.chunk.js.LICENSE.txt": "/samguan-sxg.info/static/js/2.e36cc153.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.868cc6b4.js",
+    "static/js/runtime-main.71bca54c.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.e36cc153.chunk.js",
-    "static/js/main.fd03f933.chunk.js"
+    "static/js/main.cc72f933.chunk.js"
   ]
 }
