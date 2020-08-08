@@ -1,12 +1,24 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import BottomBar from "./BottomBar";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 import AboutMe from "./Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import LoadingScreen from "./LoadingScreen"
 
 function App() {
-  return (
+  const [loadingScreen, setLoadingScreen] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoadingScreen(false);
+    }, 4000);
+  }, []);
+
+
+  return loadingScreen ? (
+    <LoadingScreen />
+  ) : (
     <Router>
       <React.Fragment>
         <Switch>

@@ -9,9 +9,12 @@ function Portfolio() {
         return (
           <Project
             name={item.name}
+            projectType={item.projectType}
             id={item.id}
             image={item.image}
+            imageOnHover={item.imageOnHover}
             url={item.url}
+            urltwo={item.url2}
             github={item.github}
             description={item.description}
           />
