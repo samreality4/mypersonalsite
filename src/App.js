@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from "react";
-import BottomBar from "./BottomBar";
-import Portfolio from "./Portfolio";
-import Resume from "./Resume";
-import AboutMe from "./Home";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import LoadingScreen from "./LoadingScreen"
+import BottomBar from "./components/BottomBar";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
+import AboutMe from "./pages/Home";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import LoadingScreen from "./components/LoadingScreen"
 
 function App() {
   const [loadingScreen, setLoadingScreen] = useState(true);

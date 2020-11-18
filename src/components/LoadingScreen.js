@@ -64,6 +64,7 @@ function LoadingScreen() {
 }
 
 const ColorLinearProgress = withStyles({
+  width: "100%",
   colorPrimary: {
     backgroundColor: "#e1f2fb",
   },
